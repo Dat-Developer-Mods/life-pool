@@ -1,6 +1,7 @@
 # Create Scoreboards
 scoreboard objectives add lives dummy {"text": "Life Pool", "color": "dark_green"}
 scoreboard objectives add deaths deathCount
+scoreboard objectives add livesTrigger trigger
 
 # Display scoreboards
 scoreboard objectives setdisplay sidebar lives
